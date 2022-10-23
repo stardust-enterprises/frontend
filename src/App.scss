@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+
+  >.header {
+    background-color: #0d0d0d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    >.logo {
+      height: 7vmin;
+      pointer-events: none;
+      margin-bottom: 4px;
+    }
+
+    >.links {
+      padding: 0;
+      list-style-type: none;
+
+      >li {
+        display: inline;
+
+        >a {
+          color: #61dafb;
+        }
+      }
+    }
+
+    >.hint {
+      color: gray;
+      font-size: calc(10px + 1vmin);
+    }
+  }
+}
