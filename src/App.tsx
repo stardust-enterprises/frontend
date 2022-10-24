@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -11,27 +13,27 @@ function App() {
         <ul className="links">
           <li>
             <a
-              href="https://github.com/stardust-enterprises"
+              href="/github"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              <FontAwesomeIcon icon={faGithub}/> GitHub
             </a>
           </li>
-          &nbsp;-&nbsp;
           <li>
             <a
-              href="https://discord.stardustenterprises.fr"
+              href="/discord"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discord
+              <FontAwesomeIcon icon={faDiscord}/> Discord
             </a>
           </li>
         </ul>
 
         <span className="hint">
-          this page is a temporary placeholder.
+          psst! this website is <b>also</b> open-source! you can browse its
+          code <a href="/source" target="_blank" rel="noopener noreferrer">here</a>.
         </span>
       </header>
     </div>

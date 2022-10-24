@@ -27,12 +27,21 @@
         >a {
           color: #61dafb;
         }
+
+        &:not(:last-of-type) {
+          padding-right: calc(12px + 1vmin);
+        }
       }
     }
 
     >.hint {
       color: gray;
       font-size: calc(10px + 1vmin);
+      font-style: italic;
+
+      >a {
+        text-decoration: underline;
+      }
     }
   }
 }
