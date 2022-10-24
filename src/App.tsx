@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
@@ -8,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <img src={logo} className="logo" alt="logo" />
+        <img src="/branding/logo/full.svg" className="logo" alt="logo" />
 
         <ul className="links">
           <li>
