@@ -1,0 +1,3 @@
+[submodule "public/branding"]
+	path = public/branding
+	url = https://github.com/stardust-enterprises/branding
