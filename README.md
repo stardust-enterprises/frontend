@@ -1,12 +1,8 @@
 # frontend
 
-GitHub pages landing. https://stardust.enterprises
-
-Uses React.
+our website, available at https://stardust.enterprises. uses react 18, typescript and tailwind.
 
 
 ## Get started
 
-`npm ci`
-
-`npm start`
+`npm ci` and `npm start`
